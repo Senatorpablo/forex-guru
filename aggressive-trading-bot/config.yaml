@@ -1,0 +1,25 @@
+# Configuration for the Aggressive Trading Bot
+
+mt5:
+  server: "MetaQuotes-Demo"
+  login: 5049022290
+  password: "6tO-HjEv"
+  investor_password: "BjLg_4Oz"
+
+trading:
+  pairs:
+    - "XAU/USD"
+    - "CAD/USD"
+    - "EUR/USD"
+    - "GBP/USD"
+  risk_per_trade: 0.005  # 0.5% risk per trade
+  stop_loss_pct: 0.005
+  take_profit_pct: 0.01
+
+elliott_wave:
+  wave_threshold: 0.7
+  trend_window: 20
+
+logging:
+  level: "INFO"
+  file: "trading_bot.log"

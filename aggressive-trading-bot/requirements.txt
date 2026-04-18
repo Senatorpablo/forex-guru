@@ -1,0 +1,9 @@
+# Requirements for the Aggressive Trading Bot
+
+numpy
+pandas
+MetaTrader5
+PyYAML
+scikit-learn
+matplotlib
+seaborn
