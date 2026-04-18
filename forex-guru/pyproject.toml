@@ -1,0 +1,13 @@
+name: forex-guru
+version: 0.1.0
+description: A trading bot based on Elliott Wave theory for MT5
+author: Senator Pablo
+
+dependencies:
+  - python>=3.8
+  - numpy
+  - pandas
+  - MetaTrader5
+
+scripts:
+  main: python forex_guru.py
