@@ -7,6 +7,8 @@ A trading bot based on Elliott Wave theory for MetaTrader 5 (MT5). This bot iden
 - **Fibonacci Retracement**: Uses Fibonacci levels for entry and exit zones.
 - **Risk Management**: Calculates position sizes based on account balance and risk percentage.
 - **Multi-Timeframe Analysis**: Uses H4 for wave detection and M15 for trade execution.
+- **Backtesting**: Simulate trading strategies on historical data.
+- **Unit Testing**: Validate critical components with unit tests.
 
 ## Setup
 
@@ -35,6 +37,16 @@ A trading bot based on Elliott Wave theory for MetaTrader 5 (MT5). This bot iden
 ### Running the Bot
 ```bash
 python forex_guru.py
+```
+
+### Running Backtests
+```bash
+python backtester.py
+```
+
+### Running Unit Tests
+```bash
+python -m unittest test_forex_guru.py
 ```
 
 ### Configuration
